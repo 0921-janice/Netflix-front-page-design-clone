@@ -16,12 +16,12 @@ To view this project, you only need a web browser.
 ### Installation
 Clone the repository to your local machine:
 ```
-git clone https://github.com/yourusername/netflix-cover-page-clone.git
+git clone https://github.com/0921-janice/Netflix-front-page-design-clone.git
 ```
 Navigate to the project directory:
 
 ```
-cd netflix-cover-page-clone
+cd Netflix-cover-page
 ```
 
 Open the index.html file in your web browser:
