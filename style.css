@@ -1,0 +1,170 @@
+#body1{
+  color: white;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 15%;
+  
+}
+
+.bg-image {
+  background-image: url("./Netflix-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  position: relative;
+  color: white;
+}
+.bg-dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#language{
+  background-color: rgb(234, 228, 228);
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+.btn btn-danger{
+  color: red;
+}
+
+.form-inline{
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.form-inline .form-control{
+  width: 200px;
+  background-color: transparent;
+  
+}
+
+#box-words, #box-image{
+  background-color: black;
+  height: 600px;
+}
+
+#box-image{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#box-words{
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#box-words h1{
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#FAQ{
+  background-color: black;
+}
+
+#FAQ-container{
+  display: flex;
+  justify-content: center;
+  margin-left: -20%;
+  
+}
+#FAQ h1{
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+#FAQ .btn{
+  border-radius: 0%;
+  height: 75px;
+  background-color: rgb(82, 78, 78);
+  color: white;
+  font-size: x-large;
+  width: 270%;
+  border: none;
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#FAQ .btn:hover{
+  background-color: rgb(126, 122, 122);
+}
+
+#FAQ-info{
+  background-color: rgb(82, 78, 78);
+  color: white;
+  font-size: x-large;
+  width: 1000px;
+  border-radius: 0%;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#plus-sign{
+  font-size: 50px;
+}
+
+#end-email{
+  background-color: black;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+#end-email-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  color: white;
+}
+
+#email::placeholder{
+  color: white;
+}
+
+#column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.row a {
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(192, 188, 188);
+
+}
+
+.footer {
+  background-color: black;
+  padding-bottom: 30px;
+  padding: 20px;
+  color: rgb(192, 188, 188);
+}
+
+#gray-strip{
+  background-color: rgb(82, 79, 79);
+  height: 10px;
+}
